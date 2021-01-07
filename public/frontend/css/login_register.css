@@ -1,0 +1,109 @@
+.login_form1{
+    padding: 2.5rem;
+    background: white;
+    width: 500px;
+}
+.login_form1 h4{
+    font-weight: 700;
+    color: black;
+}
+.login_form1 p{
+    color:hsl(0deg 0% 69%);
+}
+.login_form1 .form-group {
+    margin-bottom: 1rem;
+    background: transparent;
+    border-radius: 0;
+    transition: box-shadow 0.3s;
+    border: 1px solid transparent;
+}
+.login_form1 .input-group-prepend .input-group-text{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0 !important;
+    padding: 4px;
+    background: transparent;
+    text-align: center;
+    display: inline-block;
+    min-width: 48px;
+}
+.login_form1 .form-group .input-group-append .input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: transparent;
+    border-left: 0 !important;
+}
+.form-control:focus{
+    border-color:  hsl(0deg 0% 69%) !important;
+    box-shadow: none;
+}
+.login_name1:hover{
+    color: #f6783a !important;
+}
+.icon1 i{
+    font-size: 20px;
+    margin-top: 2px;
+    color: #333;
+}
+.course_head{
+    position: relative;
+    overflow: hidden;
+}
+.course_head img{
+    width: 100%;
+    display: block;
+}
+.single_course .course_content {
+    padding: 30px 26px;
+    background: #f9f9ff;
+    position: relative;
+}
+.single_course .course_content .category {
+    padding: 4px 21px;
+    font-size: 13px;
+    color: #fff;
+    background: #f6783a;
+    text-transform: uppercase;
+}
+.btn_edit1{
+    background-color: #f6783a;
+    color: #fff;
+}
+.single_course .course_content h4 a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.single_course .authr_meta img {
+    display: inline-block !important;
+    width: 35px;
+    height: 35px;
+    transition: all 0.3s ease 0s;
+}
+.single_course .authr_meta span {
+    color: #002347;
+    font-weight: 500;
+}
+.single_course:hover {
+    box-shadow: 0px 10px 30px rgba(0, 35, 71, 0.1);
+}
+.single_course:hover .course_head img {
+    transition: all 0.7s ease 0s;
+    transform: scale(1.2);
+}
+@media (min-width: 768px){
+    .forny-form {
+        width: 26rem;
+    }
+}
+@media (max-width: 450px){
+    .img_profile_1{
+        width: 100%;
+    }
+    .info_text_frame{
+        margin-top: 20px;
+    }
+    .btn_edit1{
+        width: 100%;
+    }
+}
+
